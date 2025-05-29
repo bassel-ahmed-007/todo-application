@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+/* the main contianer style for all pages  *************************/
+.mainContainer {
+  margin: auto;
+}
+
+@media (max-width: 1000px) {
+  .mainContainer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .mainContainer {
+    max-width: 1000px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .mainContainer {
+    max-width: 1150px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .mainContainer {
+    max-width: 1250px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .mainContainer {
+    max-width: 1400px;
+  }
+}
+
+@media (min-width: 1700px) {
+  .mainContainer {
+    max-width: 1600px;
+  }
+}
